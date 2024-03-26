@@ -18,7 +18,7 @@
     <None Include="Assign04AF" />
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="LB.asm">
+    <MASM Include="Assign04%28AF%29LB.asm">
       <Filter>Source Files</Filter>
     </MASM>
   </ItemGroup>

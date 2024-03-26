@@ -1,4 +1,3 @@
-
 .MODEL FLAT, STDCALL
 .STACK 4096
 ExitProcess PROTO, dwExitCode:DWORD
@@ -40,6 +39,8 @@ _main PROC
     ; len5 logic for incrementing
     mov eax, len5   ; Move value of len5 into EAX
     inc eax         ; Increment EAX which therefore increments len5
+    ; Now EAX holds the incremented value of len5
+
 
     invoke ExitProcess, 0
 _main ENDP

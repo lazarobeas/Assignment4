@@ -133,7 +133,7 @@
     <None Include="Assign04AF" />
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="LB.asm" />
+    <MASM Include="Assign04%28AF%29LB.asm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
